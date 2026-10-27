@@ -1,1 +1,27 @@
+name: Generate Snake
 
+on:
+  schedule:
+    - cron: "0 */1 * * *" 
+  workflow_dispatch: 
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+    
+      - name: Generate snake.svg
+        uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            assets/snake.svg
+            assets/snake-dark.svg?palette=github-dark
+
+      - name: Push generated files
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: "Update contribution snake animation"
+          file_pattern: assets/snake*.svg
