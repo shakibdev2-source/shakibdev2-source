@@ -1,16 +1,26 @@
-## Hi there 👋
 
-<!--
-**shakibdev2-source/shakibdev2-source** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
-Here are some ideas to get you started:
+<p align="center">
+  <img src="assets/stats.svg" alt="Stats Card" width="48%" />
+  <img src="assets/langs.svg" alt="Languages Card" width="48%" />
+</p>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<p align="center">
+  <img src="assets/streak.svg" alt="Streak Card" width="100%" />
+</p>
+
+<p align="center">
+  <img src="assets/heatmap.svg" alt="Contribution Heatmap" width="100%" />
+</p>
+
+<p align="center">
+  <img src="assets/visitors.svg" alt="Visitor Card" width="48%" />
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=shakibdev2-source.shakibdev2-source" width="1" height="1" alt="" />
+</p>
+
+<p align="center">
+  <img src="assets/snake.svg" alt="Snake Animation" />
+</p>
+
+
+
